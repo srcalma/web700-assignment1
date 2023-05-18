@@ -47,9 +47,7 @@ function automateTests() {
     var randPath = testPaths[getRandomInt(testPaths.length)];
 
     var output = httpRequest(randVerb, randPath);
-    //console.log(`Random httpRequest for "${randVerb}" and "${randPath}"`);
     console.log(output);
-    //console.separator();
   }
 
   setInterval(randomRequest, 1000);
