@@ -79,3 +79,8 @@ function updateScore(currentScore, value, bonus) {
 updateScore(10, 3);
 updateScore(10, 3);
 updateScore(10, 3, 2);
+
+
+updateScore(10, 3);
+updateScore(10, 3);
+updateScore(10, 3, 2);
